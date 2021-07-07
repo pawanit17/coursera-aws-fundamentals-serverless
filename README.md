@@ -2,7 +2,15 @@
 
 ## About the course
 - https://www.coursera.org/learn/aws-fundamentals-building-serverless-applications
-
+- A Chatbot built using Serverless approach.
+### What are we doing here
+- We used **Amazon LEX** to build Entities and Intents.
+  - Slots, fulfilment
+- Text to speech is leveraged by **Amazon Polly**, which is consulted by Amazon LEX.
+- **Amazon S3** object storage services ( eleven 9s )
+  - Big Data, Static tWebsite hosting in S3 public bucket ( Public Read Access ). Extremely reliable.
+- **Amazon CloufFront** is a Content Delivery Network
+  - Edge locations
 ## Serverless Computing
 - Is an architecture to build and run applications and services without having to manage the infrastructure behind it.
 - It means you no longer need to provision, scale, maintain services to run your applications, databases or storage systems.
