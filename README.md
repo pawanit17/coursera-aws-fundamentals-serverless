@@ -17,7 +17,16 @@
   - With CloudFront, the S3 buckets can be private.
   - ![image](https://user-images.githubusercontent.com/42272776/124812536-5c76d900-df81-11eb-85de-04587380ccc1.png)
   - CloudFront integrates with both AWS WAF, a web application firewall that helps protect web applications from common web exploits, and AWS Shield, a managed DDoS protection service for web applications running on AWS.
-
+- **Amazon API Gateway** is an API Gateway
+  - Multiple API versions management
+  - Easy monitoring
+  - Performance by taking network of Edge locations
+  - Cache output of API calls
+  - Authentication for APIs
+  - Supports REST and WebSocket APIs
+- **Amazon IAM**
+  - Create policies, roles and assign to users to authorize them for doing activities on AWS.
+  - Create groups and apply policies on them.
 
 ## Serverless Computing
 - Is an architecture to build and run applications and services without having to manage the infrastructure behind it.
@@ -29,3 +38,7 @@ paying for the compute time you consume.
 ### Advantages
 - Lower total cost of ownership.
 - Developers just need to focus on building your product instead of managing the infra.
+
+## Serverless vs normal AWS for a simple application
+- ![image](https://user-images.githubusercontent.com/42272776/124815730-394e2880-df85-11eb-97f7-b0103c36e6b8.png)
+
