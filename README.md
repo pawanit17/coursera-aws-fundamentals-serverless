@@ -6,8 +6,9 @@
 ### What are we doing here
 - **Amazon LEX** is used to build Entities and Intents.
   - Slots, fulfilment
-  - Text to speech is leveraged by **Amazon Polly**, which is consulted by Amazon LEX.
+  - Text to speech is leveraged by **Amazon Poly**, which is consulted by Amazon LEX.
   - ElicitSlot and Delegate with AWS Lambda.
+  - Sesion Attributes are used within square brackets [].
 - **Amazon S3** object storage services ( eleven 9s )
   - Big Data, Static tWebsite hosting in S3 public bucket ( Public Read Access ). Extremely reliable.
 - **Amazon CloufFront** is a Content Delivery Network
